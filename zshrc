@@ -45,4 +45,5 @@ plugins=(bundler capistrano colored-man colorize composer cp django docker extra
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:~/.dotfiles/utils/
+export PATH=$HOME/.rbenv/bin:$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:~/.dotfiles/utils/
+
