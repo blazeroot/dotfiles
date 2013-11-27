@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo 'Creating symlinks...'
+
+if [ ~/.zshrc ]
+then
+  echo '.zshrc exists, moving to .zshrc.backup'
+  mv ~/.zshrc ~/.zshrc.backup
+fi
+ln -s ~/.dotfiles/zshrc ~/.zshrc
+
+if [ ~/.tmux.conf ]
+then
+  echo '.tmux.conf exists, moving to .tmux.conf.backup'
+  mv ~/.tmux.conf ~/.tmux.conf.backup
+fi
+
+ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+
+echo "I'm done! Have a nice day!"
+
