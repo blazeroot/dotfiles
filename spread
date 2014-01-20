@@ -17,5 +17,22 @@ fi
 
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 
+if [ -f ~/.vimrc ]
+then
+  echo '.vimrc exists, moving to .vimrc.backup'
+  mv ~/.vimrc ~/.vimrc.backup
+fi
+
+ln -s ~/.dotfiles/vimrc ~/.vimrc
+
+if [ -d ~/.vim ]
+then
+  echo '.vim exists, moving to .vim.backup'
+  mv ~/.vim ~/.vim.backup
+fi
+
+ln -s ~/.dotfiles/vim ~/.vim
+
+
 echo "I'm done! Have a nice day!"
 

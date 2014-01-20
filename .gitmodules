@@ -34,3 +34,15 @@
 [submodule "vim/bundle/pry-editline"]
 	path = vim/bundle/pry-editline
 	url = git://github.com/tpope/pry-editline.git
+[submodule "vim/bundle/vim-zenroom2"]
+	path = vim/bundle/vim-zenroom2
+	url = https://github.com/amix/vim-zenroom2.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/vim-colorschemes"]
+	path = vim/bundle/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

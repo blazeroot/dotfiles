@@ -4,6 +4,10 @@ filetype plugin on
 filetype indent on
 syntax on
 
+set background=dark
+colorscheme github
+
+set number
 set encoding=utf8
 
 set expandtab
