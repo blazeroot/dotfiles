@@ -40,7 +40,7 @@ ZSH_THEME="trapd00r"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bundler capistrano colored-man colorize composer cp django docker extract gem git git-flow github heroku jruby knife knife_ssh lein node npm nvm postgres python rails rails3 rails4 rake rbenv redis-cli rsync ruby tmux vagrant)
+plugins=(bundler capistrano colored-man colorize composer cp django docker extract gem git git-flow github heroku jruby knife knife_ssh lein node npm nvm postgres python rails rake rbenv redis-cli rsync ruby tmux vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
