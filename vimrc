@@ -5,7 +5,7 @@ filetype indent on
 syntax on
 
 set background=dark
-colorscheme github
+colorscheme railscasts
 
 set number
 set encoding=utf8
