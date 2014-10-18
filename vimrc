@@ -6,6 +6,7 @@ syntax on
 
 set background=dark
 colorscheme railscasts
+set guifont=Monaco:h14
 
 set number
 set encoding=utf8
