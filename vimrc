@@ -1,8 +1,7 @@
 execute pathogen#infect()
 
-filetype plugin on
-filetype indent on
 syntax on
+filetype plugin indent on
 
 set background=dark
 colorscheme railscasts
