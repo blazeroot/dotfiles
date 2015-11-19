@@ -11,6 +11,10 @@ ZSH_THEME="trapd00r"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias hstart="/usr/local/Cellar/hadoop/2.7.1/sbin/start-dfs.sh;/usr/local/Cellar/hadoop/2.7.1/sbin/start-yarn.sh"
+
+alias hstop="/usr/local/Cellar/hadoop/2.7.1/sbin/stop-yarn.sh;/usr/local/Cellar/hadoop/2.7.1/sbin/stop-dfs.sh"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -46,6 +50,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/CrossPack-AVR/bin:$HOME/.cabal/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:~/.dotfiles/utils:$HOME/.rbenv/bin
+
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 export C_INCLUDE_PATH=/usr/local/CrossPack-AVR/include
 
