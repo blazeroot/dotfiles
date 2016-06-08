@@ -33,6 +33,13 @@ fi
 
 ln -s ~/.dotfiles/vim ~/.vim
 
+if [ -f ~/.kwm ]
+then
+  echo '.kwm exists, moving to .kwm.backup'
+  mv ~/.kwm ~/.kwm.backup
+fi
+ln -s ~/.dotfiles/kwm ~/.kwm
+
 
 echo "I'm done! Have a nice day!"
 
