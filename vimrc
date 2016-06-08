@@ -4,7 +4,9 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-colorscheme railscasts
+
+colorscheme gruvbox
+
 set guifont=Monaco:h14
 
 set number
