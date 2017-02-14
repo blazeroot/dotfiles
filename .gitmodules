@@ -49,3 +49,12 @@
 [submodule "vim/bundle/railscasts-theme"]
 	path = vim/bundle/railscasts-theme
 	url = git@github.com:jpo/vim-railscasts-theme.git
+[submodule "vim/bundle/gruvbox"]
+	path = vim/bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "rbenv"]
+	path = rbenv
+	url = https://github.com/rbenv/rbenv.git
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/yyuu/pyenv.git

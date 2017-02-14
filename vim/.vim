@@ -1,0 +1,1 @@
+/home/blazeroot/.dotfiles/vim

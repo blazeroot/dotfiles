@@ -33,12 +33,45 @@ fi
 
 ln -s ~/.dotfiles/vim ~/.vim
 
-if [ -f ~/.kwm ]
+if [ -d ~/.vim ]
 then
-  echo '.kwm exists, moving to .kwm.backup'
-  mv ~/.kwm ~/.kwm.backup
+    echo '.vim exists, moving to .vim.backup'
+    mv ~/.vim ~/.vim.backup
 fi
-ln -s ~/.dotfiles/kwm ~/.kwm
+
+ln -s ~/.dotfiles/vim ~/.vim
+
+if [ -d ~/.config/i3 ]
+then
+    echo '.config/i3 exists, moving to .config/i3.backup'
+    mv ~/.config/i3 ~/.config/i3.backup
+fi
+
+ln -s ~/.dotfiles/config/i3 ~/.config/i3
+
+if [ -d ~/.config/polybar ]
+then
+    echo '.config/polybar exists, moving to .config/polybar.backup'
+    mv ~/.config/polybar ~/.config/polybar.backup
+fi
+
+ln -s ~/.dotfiles/config/polybar ~/.config/polybar
+
+if [ -d ~/.rbenv ]
+then
+    echo '.rbenv exists, moving to .rbenv.backup'
+    mv ~/.rbenv ~/.rbenv.backup
+fi
+
+ln -s ~/.dotfiles/rbenv ~/.rbenv
+
+if [ -d ~/.pyenv ]
+then
+    echo '.pyenv exists, moving to .pyenv.backup'
+    mv ~/.pyenv ~/.pyenv.backup
+fi
+
+ln -s ~/.dotfiles/pyenv ~/.pyenv
 
 
 echo "I'm done! Have a nice day!"
