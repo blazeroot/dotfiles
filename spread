@@ -15,7 +15,12 @@ then
   mv ~/.tmux.conf ~/.tmux.conf.backup
 fi
 
-ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
+if [ -f ~/.config/termite ]
+then
+  echo '.config/termite exists, moving to .config/termite.backup'
+  mv ~/.config/termite ~/.config/termite.backup
+fi
+ln -s ~/.dotfiles/config/termite ~/.config/termite
 
 if [ -f ~/.vimrc ]
 then
