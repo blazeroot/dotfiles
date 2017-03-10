@@ -17,7 +17,10 @@ set $FILES ""
 set $MUSIC "ncmpcpp"
 
 # no border hack
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
+
+# Gaps
+gaps inner 15
 
 # Set mod
 set $mod Mod4
@@ -120,12 +123,12 @@ bindsym $mod+Shift+bracketright move workspace to output right
 bindsym $mod+Shift+bracketleft move workspace to output left
 
 # multimedia keys
-bindsym XF86AudioPlay exec mpc toggle
-bindsym XF86AudioStop exec mpc stop
-bindsym XF86AudioPrev exec mpc prev
-bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioMute exec pamixer --toggle-mute
-bindsym XF86AudioRaiseVolume exec pamixer --increase 5
+bindsym XF86AudioRaiseVolume exec pamixer --increase 1
 bindsym XF86AudioLowerVolume exec pamixer --decrease 5
 
 # reload the configuration file
