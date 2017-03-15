@@ -55,3 +55,6 @@
 [submodule "pyenv"]
 	path = pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen.git
