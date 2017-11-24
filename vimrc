@@ -5,9 +5,7 @@ filetype plugin indent on
 
 set background=dark
 
-colorscheme gruvbox
-
-set guifont=Monaco:h14
+color dracula
 
 set number
 set encoding=utf8
@@ -19,6 +17,8 @@ set tabstop=2
 
 set ruler
 set cmdheight=2
+
+set pastetoggle=<F2>
 
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
