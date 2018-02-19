@@ -47,3 +47,4 @@ export PATH=$PATH:$HOME/local/bin
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export PATH="/usr/local/sbin:$PATH"
