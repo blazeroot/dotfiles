@@ -55,3 +55,6 @@
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule "vim/bundle/bundle/dracula-theme"]
+	path = vim/bundle/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git

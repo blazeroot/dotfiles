@@ -1,0 +1,1 @@
+/Users/blazeroot/.config/fisherman/brew/init.fish

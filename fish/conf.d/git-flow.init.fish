@@ -1,0 +1,1 @@
+/Users/blazeroot/.config/fisherman/git-flow/init.fish
