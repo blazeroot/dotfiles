@@ -31,6 +31,12 @@ export PATH=$PATH:$HOME/.rbenv/bin
 
 # pyenv
 export PATH=$PATH:$HOME/.pyenv/bin
+eval "$(pyenv init -)"
 
 # cabal
 export PATH=$PATH:$HOME/.cabal/bin
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+# direnv
+eval "$(direnv hook $SHELL)"
+
